@@ -7,6 +7,9 @@
   font-size: 45rpx;
   line-height: 2;
   text-align: center;
+  color:#0095ff;
+  font-weight: 900; 
+  letter-spacing:5rpx
 }
 
 .question-wrap {
@@ -14,7 +17,7 @@
 }
 .question-title {
   font-size: 35rpx;
-  margin: 20rpx 0 10rpx;
+  margin: 50rpx 0 10rpx;
 }
 .question-con {
   padding-left: 20rpx;
