@@ -52,7 +52,7 @@
     </view>
   </view> 
   <view class="question-wrap">
-    <view class="question-title">今天有没有开心?</view>
+    <view class="question-title">6.今天有没有开心?</view>
     <view class="question-con">
       <radio-group bindchange="radioChange">
         <label>
@@ -61,7 +61,7 @@
         </label>
         <label>
           <checkbox value="B" />
-          明天会更好
+          没有,明天会更好
         </label>
       </radio-group>
     </view>
@@ -69,11 +69,20 @@
 
 <view>
 </view>
-<text class='user_msg'><text class="hello">hello</text>world</text>
 </view>
 <button class='btn1' open-type='openSetting'>
     <view>提交</view>
  </button>
+ <text class="putpic">
+  <image class="putpic" src="pages\images\star.png"></image>
+  <text class='word'>问卷星</text>
+<text class="putpic">提供技术支持</text>
+ </text>
+
+<image src="pages\images\star.png" class="i1"></image>
+
+
+
 
 
 

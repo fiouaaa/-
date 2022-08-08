@@ -60,5 +60,27 @@
   color: red;
   
   }
+.putpic{
+  font-size: 20rpx; 
+  align-items: center;
+  color: #e3e3e3);
+}
+ .word{
+  color:#595959;
+  margin-right: 8rpx;
+  width: 46rpx;
+  height: 46rpx;
+ }
 
- 
+.canvas {
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  left: -200%;
+}
+.i1 {
+  margin-top: 50px;
+  color: #595959;
+  width: 10%;
+  height: 10px;
+}
