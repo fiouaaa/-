@@ -1,0 +1,50 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="page-name">洪茹茹问卷</view>
+  <view class="question-wrap">
+    <view class="point">*</view> <view class="question-title">1.姓名</view>
+    <view class="question-con">
+      <input type="text" class="input-text" placeholder="" />
+    </view>
+  </view>
+  <view class="question-wrap">
+    <view class="question-title">今天发生什么幸福的事情?</view>
+    <view class="question-con">
+      <input type="text" class="input-text" placeholder="真的超级幸福的辣" />
+    </view>
+  </view>
+  <view class="question-wrap">
+    <view class="question-title">今天有没有睡饱?</view>
+    <view class="question-con">
+      <input type="text" class="input-text" placeholder="请填写" />
+    </view>
+  </view> 
+  <view class="question-wrap">
+    <view class="question-title">今天有没有吃饱?</view>
+    <view class="question-con">
+      <input type="text" class="input-text" placeholder="请填写" />
+    </view>
+  </view> 
+  <view class="question-wrap">
+    <view class="question-title">今天有没有开心?</view>
+    <view class="question-con">
+      <radio-group bindchange="radioChange">
+        <label>
+          <radio value="A" />
+          有哇
+        </label>
+        <label>
+          <radio value="B" />
+          没有耶
+        </label>
+      </radio-group>
+    </view>
+  </view> 
+
+<view>
+</view>
+<text class='user_msg'><text class="hello">hello</text>world</text>
+</view>
+<button class='btn1' open-type='openSetting'>
+    <view>提交</view>
+ </button>

@@ -1,0 +1,65 @@
+/**index.wxss**/
+.container {
+  margin: 20rpx;
+}
+
+.page-name {
+  font-size: 45rpx;
+  line-height: 2;
+  text-align: center;
+}
+
+.question-wrap {
+  margin: 20rpx 0;
+}
+.question-title {
+  font-size: 35rpx;
+  margin: 20rpx 0 10rpx;
+}
+.question-con {
+  padding-left: 20rpx;
+}
+
+.label-row {
+  display: block;
+  margin: 10rpx 0;
+}
+
+.input-text {
+  box-sizing: border-box;
+  height: 2em;
+  line-height: 2em;
+  border: solid 1rpx #d1d1d1;
+  border-radius: 6rpx;
+  padding: 0 6rpx;
+}
+
+.btn1 {
+  width: 80%;
+  margin-top: 20rpx;
+  background-color: #0095ff;
+  color: white;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnImg {
+  margin-right: 8rpx;
+  width: 46rpx;
+  height: 46rpx;
+}
+
+.btn1::after {
+  border-radius: 98rpx;
+  border: 0; 
+}
+.* {
+
+  font-size: 50rpx; 
+  
+  color: red;
+  
+  }
