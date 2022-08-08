@@ -73,13 +73,12 @@
 <button class='btn1' open-type='openSetting'>
     <view>提交</view>
  </button>
- <text class="putpic">
-  <image class="putpic" src="pages\images\star.png"></image>
-  <text class='word'>问卷星</text>
-<text class="putpic">提供技术支持</text>
- </text>
+ 
+ <view class="view1">
+  <image class="image4" src="/images/star.png"></image>
+</view>
+ <view class="word">问卷星提供技术支持</view>
 
-<image src="pages\images\star.png" class="i1"></image>
 
 
 
