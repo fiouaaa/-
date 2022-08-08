@@ -9,19 +9,19 @@
   <view class="question-wrap">
     <view class="question-title">2.今天发生什么幸福的事情?</view>
     <view class="question-con">
-      <input type="text" class="input-text" placeholder="真的超级幸福的辣" />
+      <input type="text" class="input-text" placeholder="" />
     </view>
   </view>
   <view class="question-wrap">
     <view class="question-title">3.今天有没有睡饱?</view>
     <view class="question-con">
-      <input type="text" class="input-text" placeholder="请填写" />
+      <input type="text" class="input-text" placeholder="" />
     </view>
   </view> 
   <view class="question-wrap">
     <view class="question-title">4.今天有没有吃饱?</view>
     <view class="question-con">
-      <input type="text" class="input-text" placeholder="请填写" />
+      <input type="text" class="input-text" placeholder="" />
     </view>
   </view>
   <view class="question-wrap">
