@@ -1,8 +1,7 @@
-<!--index.wxml-->
 <view class="container">
   <view class="page-name">洪茹茹问卷</view>
   <view class="question-wrap">
-    <view class="point">*</view> <view class="question-title">1.姓名</view>
+    <text class="point">*</text> <text class="question-title">1.姓名</text>
     <view class="question-con">
       <input type="text" class="input-text" placeholder="" />
     </view>
@@ -14,15 +13,42 @@
     </view>
   </view>
   <view class="question-wrap">
-    <view class="question-title">今天有没有睡饱?</view>
+    <view class="question-title">3.今天有没有睡饱?</view>
     <view class="question-con">
       <input type="text" class="input-text" placeholder="请填写" />
     </view>
   </view> 
   <view class="question-wrap">
-    <view class="question-title">今天有没有吃饱?</view>
+    <view class="question-title">4.今天有没有吃饱?</view>
     <view class="question-con">
       <input type="text" class="input-text" placeholder="请填写" />
+    </view>
+  </view>
+  <view class="question-wrap">
+    <view class="question-title">5.择你所爱</view>
+    <view class="question-con">
+      <checkbox-group bindchange="checkboxChange">
+        <label class="label-row">
+          <checkbox value="A" />
+          棒球
+        </label>
+        <label class="label-row">
+          <checkbox value="B" />
+          羽毛球
+        </label>
+        <label class="label-row">
+          <checkbox value="C" />
+          保龄球
+        </label>
+        <label class="label-row">
+          <checkbox value="D" />
+          台球
+        </label>
+        <label class="label-row">
+          <checkbox value="E" />
+          马球
+        </label>
+      </checkbox-group>
     </view>
   </view> 
   <view class="question-wrap">
@@ -48,3 +74,8 @@
 <button class='btn1' open-type='openSetting'>
     <view>提交</view>
  </button>
+
+
+
+
+ 
