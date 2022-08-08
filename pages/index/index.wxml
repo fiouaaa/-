@@ -8,7 +8,7 @@
     </view>
   </view>
   <view class="question-wrap">
-    <view class="question-title">今天发生什么幸福的事情?</view>
+    <view class="question-title">2.今天发生什么幸福的事情?</view>
     <view class="question-con">
       <input type="text" class="input-text" placeholder="真的超级幸福的辣" />
     </view>
@@ -30,12 +30,12 @@
     <view class="question-con">
       <radio-group bindchange="radioChange">
         <label>
-          <radio value="A" />
+          <checkbox value="A" />
           有哇
         </label>
         <label>
-          <radio value="B" />
-          没有耶
+          <checkbox value="B" />
+          明天会更好
         </label>
       </radio-group>
     </view>
